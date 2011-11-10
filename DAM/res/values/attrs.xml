@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<declare-styleable name="com.admob.android.ads.AdView">
+		<attr name="backgroundColor" format="color" />
+		<attr name="primaryTextColor" format="color" />
+		<attr name="secondaryTextColor" format="color" />
+		<attr name="keywords" format="string" />
+		<attr name="refreshInterval" format="integer" />
+	</declare-styleable>
+	<declare-styleable name="FlattrView">
+		<attr name="flattr_btn" format="string"/>
+		<attr name="flattr_uid" format="string"/>
+		<attr name="flattr_tle" format="string"/>
+		<attr name="flattr_dsc" format="string"/>
+		<attr name="flattr_cat" format="string"/>
+		<attr name="flattr_lng" format="string"/>
+		<attr name="flattr_tag" format="string"/>
+		<attr name="flattr_url" format="string"/>
+		<attr name="flattr_hide" format="string"/>
+	</declare-styleable>
+</resources>

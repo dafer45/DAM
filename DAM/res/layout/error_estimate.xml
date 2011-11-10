@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:background="#FFFFFFFF"
+	    >
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    	android:orientation="horizontal"
+	    	android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    >
+			<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			    android:orientation="vertical"
+	    		android:layout_width="fill_parent"
+	    		android:layout_height="wrap_content"
+	    		android:layout_weight="0.5"
+	    		>
+	    		<TextView
+	    			android:layout_width="fill_parent"
+	    			android:layout_height="wrap_content"
+	    			android:textColor="#FF000000"
+	    			android:textSize="16px"
+	    			android:textStyle="bold"
+	    			android:text="@string/accuracy_1m"
+	    			/>
+	    		<TextView
+	    			android:id="@+id/errorEstimate1m"
+	    			android:layout_width="fill_parent"
+	    			android:layout_height="wrap_content"
+	    			android:textColor="#FF000000"
+	    			android:textSize="22px"
+	    			/>
+		    </LinearLayout>
+			<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			    android:orientation="vertical"
+	    		android:layout_width="fill_parent"
+	    		android:layout_height="wrap_content"
+	    		android:layout_weight="0.5"
+	    		>
+	    		<TextView
+	    			android:layout_width="fill_parent"
+	    			android:layout_height="wrap_content"
+	    			android:textColor="#FF000000"
+	    			android:textSize="16px"
+	    			android:textStyle="bold"
+	    			android:text="@string/accuracy_10m"
+	    			/>
+	    		<TextView
+	    			android:id="@+id/errorEstimate10m"
+	    			android:layout_width="fill_parent"
+	    			android:layout_height="wrap_content"
+	    			android:textColor="#FF000000"
+	    			android:textSize="22px"
+	    			/>
+		    </LinearLayout>
+		</LinearLayout>
+	    <TextView
+	    	android:id="@+id/errorEstimateView"
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+   			android:textColor="#FF000000"
+			android:textSize="16px"
+	    	android:text="@string/error_estimate_explanation"
+	    	/>
+<!--     	<Button
+    		android:id="@+id/dialogBackButton"
+    		android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:text="   Back   "
+	    	/>-->
+	</LinearLayout>
+</ScrollView>

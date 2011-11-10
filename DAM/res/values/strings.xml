@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Distance and area measurement</string>
+
+<!--  Labels -->
+	<string name="logging">Logging</string>
+<!-- Messages -->
+	<string name="will_end_measuring_session">This will end the current measuring session.</string>
+<!-- Menu -->
+ 	<string name="measure">Measure</string>
+	<string name="save">Save</string>
+	<string name="view">View</string>
+	<string name="delete">Delete</string>
+	<string name="help">Help</string>
+	<string name="import_file">Import</string>
+	<string name="export">Export</string>
+	<string name="estimate_error">Estimate error</string>
+	<string name="estimated_error">Estimated error</string>
+	<!-- Do not translate the next line as it is a play on words with a new service called flattr. -->
+    <string name="mutual_support">Mutual support</string>
+    <string name="back">Back</string>
+    <string name="figures">Figures</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="enter_figure_name">Enter figure name</string>
+    <string name="accuracy_1m">Accuracy: 1m</string>
+    <string name="accuracy_10m">Accuracy: 10m</string>
+    <string name="error_estimate_explanation">\nBecause the application uses the GPS, which can
+    vary in accuracy, the user has to build a certain amount of experience to judge what trust
+    to put into the measured distances and areas. To help with this, two estimated upper bounds
+    for the error of the current measured area is given here. The left value assumes a GPS
+    accuracy of 1 m (approximately 1 yd), while the right assumes an accuracy of 10m
+    (approximately 10 yd). Note that if the experienced accuracy of the GPS is any of these
+    values, the error should actually be very much smaller than the estimate, because the
+    errors tend to average out. Especially for larger areas.\n\nIf your main interest is in
+    distances of straight paths, these should be measure in manual mode as the "wiggling" along
+    the path otherwise will add up to yield too large values for the measured distances. For
+    meter accuracy in the GPS signal, these "wigglings" does to my experience however not
+    affect the result to more than a few percent in automatic mode.
+    </string>
+    <string name="help_general_header">General information</string>
+    <string name="help_general">It can take some time before the application receives GPS
+    signal and is able to begin a measurement. Be aware that it is very rare that GPS signal is
+    received while being indoor.\n\n
+
+    Also be aware that the application not is very accurate for room size areas, but it become
+    increasingly accurate as the measured area is getting larger. Some help with estimating the
+    error in the measurement is provided under the \"Error estimate\"-option in the menu.
+    However, these estimates are probably way to large in almost all cases, and the accuracy
+    much better than those. More information on this is found in the actual
+    \"Error estimate\"-dialog.\n
+    </string>
+    <string name="help_controls_header">Controls</string>
+    <string name="help_controls">All controls that relates to the actual measurement are
+    displayed at the top of the main view. The two first drop down menus are used to specify
+    which units are used for the measurement. The units can be changed at any moment and it is
+    in this way possible to convert between different units during as well as after a
+    measurement.\n\n
+
+    The rightmost drop down menu allows you to specify weather logging should be done
+    automatically or manually. The automatic mode is recommended for most area measurements,
+    but to measure the distance between two points, use the manual mode to get the best
+    precision. The manual mode can also be useful for area measurement whenever obstacles
+    prevents the actual outline of the area to be traversed. In these cases, turn on the
+    manual mode, take whatever path that is needed to get around the obstacle, and then return
+    to the automatic mode to continue the measurement.\n\n
+
+    The three buttons on the second line are used to start, stop and reset a measurement, as
+    well as to manually log coordinates while in manual mode.\n\n
+
+    To be able to make a measurement, the application has to be in "measure mode". The other
+	mode the application can be in is "view mode", and this is indicated by the dot in the top
+	left corner being blue. To change from "view mode" to "measure mode", choose "Measure" from
+	the menu.\n
+    </string>
+    <string name="help_internal_files_header">Internal files</string>
+    <string name="help_internal_files">Measured areas can be saved internally and later viewed
+    in the application. The save, view and delete options in the menu are used to handle such
+    files.\n
+    </string>
+    <string name="help_import_export_header">Import/export files</string>
+    <string name="help_import_export">Files can be imported and exported from the application
+    to either be used with other softwares such as Google earth or maps, or by another
+    \"Distance and area measurement\"-application. This is done with the import and export
+    options in the menu. In order to view the areas in other compatible software, export
+    the files as .kml-files. But to transfer them and import them into another
+    \"Distance and area measurement\"-application, use the .damef-format.\n\n
+
+    To import a .damef-file on another phone the files must manually be placed into the folder
+    \"/Android/data/Distance and area measurement/\" on that phones external memory, and then
+    imported with the import option.\n\n
+
+    Similarly, to access exported .kml-files, connect the phone to a computer and access the
+    files in the folder \"/Android/data/Distance and area measurement/\".\n\n
+
+    Feel free to contact me if this explanation not makes sense to you. Contact information can
+    be found under the menu option \"Mutual support\".\n
+    [An even better solution might be to ask your kids for help. If you do not have any, make
+    sure you do get some. You will not survive an ever technology evolving future without them!
+    ;) ]\n\n
+
+    Only files produced with v1.11 or later will produce sensible .kml-files.</string>
+    <string name="choose_file_name">Choose file name</string>
+    <string name="choose_file">Choose file</string>
+
+<!-- Status -->
+    <string name="running">Running</string>
+    <string name="ready">Ready</string>
+    <string name="awaiting_signal">Awaiting signal</string>
+    <string name="view_mode">View mode</string>
+
+<!-- Units prompt title -->
+    <string name="units_prompt">Choose units</string>
+    <string name="logging_prompt">Choose logging method</string>
+
+<!-- Text at bottom -->
+    <string name="distance">Distance:</string>
+    <string name="area">Area:</string>
+    <string name="length_unit_meter">m</string>
+    <string name="length_unit_kilometer">km</string>
+    <string name="length_unit_foot">ft</string>
+    <string name="length_unit_yard">yd</string>
+    <string name="length_unit_chain">ch</string>
+    <string name="length_unit_mile">mi</string>
+    <string name="area_unit_square_meter">m\u00b2</string>
+    <string name="area_unit_hectare">ha</string>
+    <string name="area_unit_square_kilometermeter">km\u00b2</string>
+    <string name="area_unit_square_foot">ft\u00b2</string>
+    <string name="area_unit_square_yard">yd\u00b2</string>
+    <string name="area_unit_acre">acre</string>
+    <string name="area_unit_square_mile">mi\u00b2</string>
+
+<!-- Buttons -->
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="reset">Reset</string>
+    <string name="log">Log</string>
+
+<!-- Export dialog -->
+	<string name="kml">.kml</string>
+	<string name="damef">.damef</string>
+	<string name="export_description">Save as .kml to be able to view the files in Google earth or maps.\nSave as .damef to transfer files to another \"Distance and area measurement\"-application.\nAll files will be saved in the folder \"/Android/data/Distance and area measurement/\" on the external memory.</string>
+	<string name="sendCopyByMail">Send copy by mail</string>
+
+<!-- Translation credits -->
+    <string name="translated_by"><!-- Translated by ...--></string>
+</resources>

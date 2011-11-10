@@ -1,0 +1,27 @@
+<!-- Spinner choices -->
+<resources>
+	<string-array name="lengthUnits">
+		<item>Auto (metric)</item>
+		<item>Auto (imperial)</item>
+		<item>m</item>
+		<item>km</item>
+		<item>ft</item>
+		<item>yd</item>
+		<item>ch</item>
+		<item>mi</item>
+	</string-array>
+	<string-array name="areaUnits">
+		<item>Auto (metric)</item>
+		<item>Auto (imperial)</item>
+		<item>m\u00b2</item>
+		<item>ha</item>
+		<item>km\u00b2</item>
+		<item>ft\u00b2</item>
+		<item>yd\u00b2</item>
+		<item>acre</item>
+		<item>mi\u00b2</item>
+	</string-array><string-array name="logging">
+		<item>Auto</item>
+		<item>Manual</item>
+	</string-array>
+</resources>
